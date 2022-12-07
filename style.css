@@ -168,6 +168,26 @@ footer {
     height: 80vh;
 }
 
+.Me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.myImage {
+    padding: 0;
+    border-radius: 1rem;
+    box-shadow: 10px 10px #000;
+}
+
+.MyImage img{
+    width: 100%;
+    height: auto;
+}
+
+
+
 
 
 @media (min-width: 800px) {
@@ -199,5 +219,11 @@ footer {
     
     .projectCard {
         max-width: 20%;
+    }
+    
+    .Me {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
